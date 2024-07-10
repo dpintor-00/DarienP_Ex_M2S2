@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de hora</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="redireccion.html" method="post">
+        <label for="nombre">NOMBRE</label>
+        <br>
+        <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre" required>
+        <br>
+        <br>
+        <label for="direccion">DIRECCIÓN</label>
+        <br>
+        <input type="text" name="direccion" id="direccion" placeholder="Escriba su dirección" required>
+        <br>
+        <br>
+        <label for="especialidad">ESPECIALIDAD MÉDICA</label>
+        <br>
+        <select name="especialidad" id="especialidad">
+            <option value="medicinai">MEDICINA INTERNA</option>
+            <option value="medicinag">MEDICINA GENERAL</option>
+            <option value="traumatologia">TRAUMATOLOGÍA</option>
+            <option value="nutricionista">NUTRICIONISTA</option>
+        </select>
+        <br>
+        <br>
+        <label for="fecha">FECHA</label>
+        <br>
+        <input type="date" name="fecha" id="fecha" required>
+        <br>
+        <br>
+        <label for="hora">HORA</label>
+        <br>
+        <input type="time" name="hora" id="hora" required>
+        <br>
+        <br>
+        <label for="correo">CORREO</label>
+        <br>
+        <input type="email" name="correo" id="correo" placeholder="Escriba su correo" required>
+        <br>
+        <br>
+        <input type="submit" value="CONFIRMAR">
+    </form>
+</body>
+</html>
